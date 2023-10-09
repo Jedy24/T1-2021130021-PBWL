@@ -17,8 +17,7 @@
                     <a class="link-secondary" href="#">Subscribe</a>
                 </div>
                 <div class="col-4 text-center">
-                    <a class="blog-header-logo text-dark" href="">T1-2021130021</a>
-                    {{-- {{ route('landing') }} --}}
+                    <a class="blog-header-logo text-dark" href="{{ route('landing') }}">T1-2021130021</a>
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">
                     <a class="link-secondary" href="#" aria-label="Search">

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', LandingController::class)->name('landing');
 
-Route::get('/', function(){
-    return view('landing');
-});
-
-Route::get('/book', [BookController::class, 'index']);
+Route::resource('books', BookController::class);
