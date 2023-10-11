@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="mb-3 col-md-12 col-sm-12">
-                    <label for="judul" class="form-label">Judul</label>
+                    <label for="judul" class="form-label">Judul Buku</label>
                     <input type="text" class="form-control" id="judul" name="judul" value="{{ old('judul', $book->judul) }}">
                 </div>
 
