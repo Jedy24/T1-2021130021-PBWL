@@ -57,8 +57,7 @@
     </main>
 
     <footer class="blog-footer">
-        <p>Copyright ©️{{date('Y')}} <a href="/">T1-2021130021</a> </p>
-        {{-- - <a href="{{ route('contact-us.index') }}">Contact Us</a> --}}
+        <p>Copyright ©️{{date('Y')}} <a href="/">T1-2021130021</a> - <a href="/books">Book List</a></p>
         <p>
             <a href="#">Back to top</a>
         </p>
