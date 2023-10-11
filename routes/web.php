@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\LandingController;
+use App\Models\Book;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', LandingController::class)->name('landing');
 
 Route::resource('books', BookController::class);
+
+Route::get('/books.show/{book:isbn}', function (Book $book){
+    return $book;
+});

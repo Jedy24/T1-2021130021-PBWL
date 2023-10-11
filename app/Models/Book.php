@@ -16,4 +16,10 @@ class Book extends Model
         'kategori',
         'penerbit',
     ];
+
+    protected $primaryKey = 'isbn';
+
+    public function getRouteKeyName(): string{
+        return 'isbn';
+    }
 }
