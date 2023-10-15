@@ -23,7 +23,7 @@
                 @csrf
                 <div class="mb-3 col-md-12 col-sm-12">
                     <label for="isbn" class="form-label">ISBN</label>
-                    <input type="text" class="form-control" id="isbn" name="isbn" value="{{ old('isbn') }}">
+                    <input type="text" class="form-control" id="isbn" name="isbn" value="{{ old('isbn') }}" maxlength="13">
                 </div>
 
                 <div class="mb-3 col-md-12 col-sm-12">
