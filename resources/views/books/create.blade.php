@@ -39,7 +39,7 @@
                 <div class="mb-3 col-md-12 col-sm-12">
                     <label for="kategori" class="form-label">Kategori</label>
                     <select class="form-select" id="kategori" name="kategori">
-                        <option value="Uncategorized" {{ old('kategori') === 'ncUategorized' ? 'selected' : '' }}>Uncategorized</option>
+                        <option value="Uncategorized" {{ old('kategori') === 'Uncategorized' ? 'selected' : '' }}>Uncategorized</option>
                         <option value="Sci-Fi" {{ old('kategori') === 'Sci-Fi' ? 'selected' : '' }}>Science Fiction</option>
                         <option value="Novel" {{ old('kategori') === 'Novel' ? 'selected' : '' }}>Novel</option>
                         <option value="History" {{ old('kategori') === 'History' ? 'selected' : '' }}>History</option>
